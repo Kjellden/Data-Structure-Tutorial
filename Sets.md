@@ -21,9 +21,45 @@ orange -> hash -> 5 set[5] == none so false
 
 so if we wanted to find if purple was in the set we could check to see if there was an item in that hash location because hash index's are made for each item. This way of encoding index allows you to perform O(1) because you no longer have to search the full list you only need to check the hash index for the item your looking for.
 
-## How and when do we use set?
-
-
 ## commands and Big O
+Operation | Description | Code | Performance
+-------- | -------- | --------|--------|
+add(value)| Add a value to the set | my_set.add(value)| O(1)|
+remove(value)| Removes value from the set | my_set.remove(value)| O(1)|
+member(value)| checks to see if value is in the set | if value in set | O(1)
+size()| check the size of the set | len(my_set) }| O(1)
+
 ## example code
+```python
+# make an empty set
+my_set = set()
+
+# add an item to the set
+my_set.add(5)
+my_set.add(6)
+my_set.add(5)
+
+# print out the set
+print(my_set)  # {5, 6}
+
+# remove from set 
+my_set.remove(5)
+
+# check to see if an item is in the set
+value = 5
+if value in my_set:
+    print("yes")
+else:
+    print("no")
+
+value = 6
+if value in my_set:
+    print("yes")
+else:
+    print("no")
+
+# hwo big is the set
+print(len(my_set))
+```
+
 ## Problem
