@@ -41,5 +41,5 @@ print(len(queue))
 ```
 
 ## Problem
-[Queues-project.py](Python-files\Queues-project.py) This project will will make a queue for a shopping line you will need to be able to add people to the line help people in line and print out the full line of people.
+[Queues-project.py](Python-files\Queues-project.py) This project you will make a queue for a shopping line you will need to be able to add people to the line help people in line and print out the full line of people.
 [Teachers answers](Python-files\Queues-project-answers.py)
