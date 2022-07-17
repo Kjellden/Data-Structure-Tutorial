@@ -63,5 +63,5 @@ print(len(my_set))
 ```
 
 ## Problem
-[Queues-project.py](Python-files\Sets-project.py) This project you will make a set for a box of crayons you will need to be able to add new crayons to the box but not be able to add the same color more then once at a time. you will also need to be able to remove and use the crayons.
+[Sets-project.py](Python-files\Sets-project.py) This project you will make a set for a box of crayons you will need to be able to add new crayons to the box but not be able to add the same color more then once at a time. you will also need to be able to remove and use the crayons.
 [Teachers answers](Python-files\Sets-project-answers.py)
